@@ -1,0 +1,24 @@
+.title{
+    position: relative;
+    left: 85px;
+  right: 20px;
+  top: 15px;
+  bottom: 20px;
+  font-family: "Inter",sans-serif;
+  font-size: 48px;
+  letter-spacing: -2.5px;
+  background: transparent;
+  z-index: 1;
+
+}
+.title::after
+{
+    position: relative;
+    top: -7px;
+    content: "";
+    height: 6px;
+    width: 120px;
+    display: block;
+    background-color: var(--blue);
+    z-index: -1;
+}

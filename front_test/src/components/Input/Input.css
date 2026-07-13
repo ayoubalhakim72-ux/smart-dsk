@@ -1,0 +1,44 @@
+.user{
+  position: relative;
+  top: 200px;
+  left: 60px ;
+  width: 170px;
+  height: 25px;
+  font-family: "Inter",sans-serif;
+  font-size: 20px;
+  letter-spacing: -0.5px;
+  border: none;
+  border-bottom: 3px solid #000;
+  background: transparent;
+  
+}
+.pass{
+  position: relative;
+  top: 200px;
+  left: 60px ;
+  width: 170px;
+  height: 25px;
+  font-family: "Inter",sans-serif;
+  font-size: 20px;
+  letter-spacing: -0.5px;
+  border: none;
+  border-bottom: 3px solid #000;
+  background: transparent;
+}
+.user::placeholder,.pass::placeholder{
+  font-family: "Inter",sans-serif;
+  color: var(--blue);
+}
+.show{
+  position: relative;
+  top: 208px;
+  left: 32px;
+  background: transparent;
+  border: none;
+  
+  
+}
+.show img{
+  height: 20px;
+  width: 20px;
+}
